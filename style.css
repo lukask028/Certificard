@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, green 96.03%);
+  font-family: "STIX Two Text", serif;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #99e599 27.49%, #00ff7f 83.19%);
+  margin: 15px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 30px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.social {
+  padding-bottom: 30px;
+  text-decoration: none;
+  line-height: 40px;
+  max-width: 50px;
+  max-height: 50px;
+}
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 15px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 30px;
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.perfil {
+  display: flex;
+  
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 130px;
+  box-shadow: 0px 4px 4px rgba (0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px; 16px;
+  background: #ECF4FF;
+  border-radius: 100px;
+  border: 2px solid #0E1D2F;
+}
+
+.dark{
+  background: linear-gradient(236.85deg, #cbf7c7 27.26%, #a2b0f4 96.03%);
+}
+
+.dark .container {
+  
+  background: #333439;
+box-shadow: 6px 6px 6px #0E1D2F;
+border-radius: 20px;
+  color: #F7F7F7;
+}
+
+.dark .projetos{
+  color: #1c1c1c;
+}
+
+.dark .tema button{
+  color: #FFFFFF;
+background: #1C1C1C;
+  border: 2px solid #f7f7f7;
+}
